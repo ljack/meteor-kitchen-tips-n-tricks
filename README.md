@@ -1,5 +1,8 @@
 # meteor-kitchen-hacks
-meteor-kitchen hacks and snippets 
+*meteor-kitchen hacks and snippets *
+
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/perak/kitchen-site?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 
 ## Table of Contents
 1. [Display helpers](#helpers)
