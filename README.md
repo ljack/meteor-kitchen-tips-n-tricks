@@ -14,7 +14,7 @@ inspired by [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javasc
 
 
 ## Helpers
-- [1.1](#1.1) <a name='1.1'></a> **Custom HTML output**: When you want to generate custom HTML for a field.
+- [1.1](#1.1) <a name='1.1'></a> **Custom HTML output**: When you want to generate custom HTML for a field. Put the helper code somewhere in client area. Either in "Client startup code" in Designer or ```"client_startup_code": "console.log(\"Client startup running \",Meteor.user().profile.name );\n\n",``` in JSON.
 ```javascript
 Template.registerHelper("displayPhoto",  function (url) {
   let html = `<img src="${url}" />`;
