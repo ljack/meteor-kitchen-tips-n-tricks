@@ -4,6 +4,7 @@ meteor-kitchen hacks and snippets
 ## Table of Contents
 1. [Display helpers for any custom HTML for fields](#helpers)
 1. [Template](#template)
+1. [Template](#template)
 
 
 ## Helpers
@@ -14,3 +15,5 @@ Template.registerHelper("displayPhoto",  function (url) {
   return Spacebars.SafeString(html);
 } );
 ```
+
+## Template
