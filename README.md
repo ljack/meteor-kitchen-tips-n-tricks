@@ -2,7 +2,7 @@
 
 *meteor-kitchen hacks and snippets*
 
-inspired by https://github.com/airbnb/javascript
+inspired by [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/perak/kitchen-site?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
