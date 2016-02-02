@@ -1,4 +1,4 @@
-# meteor-kitchen-hacks for full support
+# meteor-kitchen-hacks for full support {
 
 *meteor-kitchen hacks and snippets*
 
@@ -23,3 +23,5 @@ Template.registerHelper("displayPhoto",  function (url) {
 ```
 
 ## Template
+
+# }
