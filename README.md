@@ -25,7 +25,7 @@ Template.registerHelper("displayPhoto",  function (url) {
 
 ## Template
  - [x.x](#x.x) <a name='x.'x></a> ** Add stuff here ** : That helps make meteorkitchen more fun ;) 
- - 
+ 
 **[⬆ back to top](#table-of-contents)**
 
 # }
