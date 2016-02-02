@@ -4,8 +4,7 @@
 
 inspired by [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
 
-[![kitchen-site](https://badges.gitter.im/Join Chat.svg)](https://github.com/perak/kitchen-site/)
-
+[![kitchen-site](https://img.shields.io/badge/kitchen--site-github-brightgreen.svg)](https://github.com/perak/kitchen-site/)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/perak/kitchen-site?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 
