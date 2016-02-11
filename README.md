@@ -4,7 +4,7 @@
 
 inspired by [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
 
-Please fork this and create pull request to have your hacks-n-tips included ;)
+Please fork this and create pull request to have your hacks-n-tips included. Or create an issue, if you can't find the tip you're looking for.
 
 [![kitchen-site](https://img.shields.io/badge/kitchen--site-github-brightgreen.svg)](https://github.com/perak/kitchen-site/)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/perak/kitchen-site?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
