@@ -1,4 +1,4 @@
-# meteor-kitchen-hacks-n-tips for full support {
+# meteor-kitchen-tips-tricks for full support {
 
 *meteor-kitchen hacks and snippets*
 
