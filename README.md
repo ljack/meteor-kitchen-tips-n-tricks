@@ -1,6 +1,6 @@
 # meteor-kitchen-tips-tricks for full support {
 
-*meteor-kitchen hacks and snippets*
+*meteor-kitchen tips-n-tricks and snippets*
 
 inspired by [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
 
