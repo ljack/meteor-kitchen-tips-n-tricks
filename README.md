@@ -29,8 +29,8 @@ Template.registerHelper("displayPhoto",  function (url) {
 ## custom_component
  - [1.2](#1.2) <a name='1.'2></a> **custom_component** : One of the most powerfull features in MeteorKitchen. 
  To add a `custom_component` choose the components in Designer, click `Add new` and select `custom_component` from the list. You can use custom_component in at least 3 different ways.
-  1. Provide name in `Custom template`. This makes MeteorKitchen look for two files (`Custom template`.html and `Custom template`.fs). Just input the name of the files without extension. Inside those files write normal Meteor template and javascript code.
-  2. Use the special `TEMPLATE_NAME` magic string in both `HTML code` and `JS code` to make MeteorKitchen automatically use correct name for both the `template` and in `JS code`. Also calls the Template using the Meteor way in the parent HTML. E.g. `{> TEMPLATE_NAME}` gets inserted into the parent HTML with the template code somewhere near it.
+  - Provide name in `Custom template`. This makes MeteorKitchen look for two files (`Custom template`.html and `Custom template`.fs). Just input the name of the files without extension. Inside those files write normal Meteor template and javascript code.
+  - Use the special `TEMPLATE_NAME` magic string in both `HTML code` and `JS code` to make MeteorKitchen automatically use correct name for both the `template` and in `JS code`. Also calls the Template using the Meteor way in the parent HTML. E.g. `{> TEMPLATE_NAME}` gets inserted into the parent HTML with the template code somewhere near it.
 ```javascript
 HTML code
 <template name="TEMPLATE_NAME">
@@ -52,8 +52,8 @@ Template.TEMPLATE_NAME.events({
 	}
 });
 ```
- 3. Don't use the magic string `TEMPLATE_NAME` and don't wrap your HTML inside `<template>` is what's called the `inline`mode. In `inline`mode the HTML gets inserted into parent HTML "as is".
- 4. 
+ - Don't use the magic string `TEMPLATE_NAME` and don't wrap your HTML inside `<template>` is what's called the `inline`mode. In `inline`mode the HTML gets inserted into parent HTML "as is".
+ 
 **[⬆ back to top](#table-of-contents)**
 
 # }
