@@ -57,6 +57,8 @@ Template.TEMPLATE_NAME.events({
  - Don't use the magic string `TEMPLATE_NAME` and don't wrap your HTML inside `<template>` is what's called the `inline`mode. In `inline`mode the HTML gets inserted into parent HTML "as is".
  - With advanced usage of `Template.XXX.events` you have to remember that it's an array of maps and you could end up having multiple calls to your event handler in some cases. Just to remind you.
  - 
+ 
+
 **[⬆ back to top](#table-of-contents)**
 
 # }
