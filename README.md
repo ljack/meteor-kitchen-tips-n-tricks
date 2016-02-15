@@ -31,6 +31,8 @@ Template.registerHelper("displayPhoto",  function (url) {
  To add a `custom_component` choose the components in Designer, click `Add new` and select `custom_component` from the list. You can use custom_component in at least 3 different ways.
   - Provide name in `Custom template`. This makes MeteorKitchen look for two files (`Custom template`.html and `Custom template`.fs). Just input the name of the files without extension. Inside those files write normal Meteor template and javascript code.
   - Use the special `TEMPLATE_NAME` magic string in both `HTML code` and `JS code` to make MeteorKitchen automatically use correct name for both the `template` and in `JS code`. Also calls the Template using the Meteor way in the parent HTML. E.g. `{> TEMPLATE_NAME}` gets inserted into the parent HTML with the template code somewhere near it.
+   
+ Example below creates an HTML submit button with Meteor event handler which listenes for a click. 
 ```javascript
 HTML code
 <template name="TEMPLATE_NAME">
