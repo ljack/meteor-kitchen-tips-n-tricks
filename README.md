@@ -27,11 +27,32 @@ Template.registerHelper("displayPhoto",  function (url) {
 **[⬆ back to top](#table-of-contents)**
 
 ## custom_component
- - [1.2](#1.2) <a name='1.'2></a> ** Custom component ** : One of the most powerfull features in MeteorKitchen. 
+ - [1.2](#1.2) <a name='1.'2></a> **custom_component** : One of the most powerfull features in MeteorKitchen. 
  To add a `custom_component` choose the components in Designer, click `Add new` and select `custom_component` from the list. You can use custom_component in at least 3 different ways.
-  1. Provide name in `Custom template`. This makes MeteorKitchen look for two files (`Custom template`.html and `Custom template`.fs). Just input the name of the files without extension.
+  1. Provide name in `Custom template`. This makes MeteorKitchen look for two files (`Custom template`.html and `Custom template`.fs). Just input the name of the files without extension. Inside those files write normal Meteor template and javascript code.
+  2. Use the special `TEMPLATE_NAME` magic string in both `HTML code` and `JS code` to make MeteorKitchen automatically use correct name for both the `template` and in `JS code`. 
+```javascript
+HTML code
+<template name="TEMPLATE_NAME">
+  
+<button type="submit" id="printPdf" class="printPdf button button-primary">
+  <span class="fa fa-print">Print to PDF</span>
+</button>
 
+</template>
+```
 
+```javascript
+JS code
+
+Template.TEMPLATE_NAME.events({
+		"click #printPdf": function(e, t) {
+		e.preventDefault();
+
+		console.log("Printing...");
+	}
+});
+```
 **[⬆ back to top](#table-of-contents)**
 
 # }
