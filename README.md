@@ -28,7 +28,10 @@ Template.registerHelper("displayPhoto",  function (url) {
 
 ## custom_component
  - [1.2](#1.2) <a name='1.'2></a> ** Custom component ** : One of the most powerfull features in MeteorKitchen. 
- 
+ To add a `custom_component` choose the components in Designer, click `Add new` and select `custom_component` from the list. You can use custom_component in at least 3 different ways.
+  1. Provide name in `Custom template`. This makes MeteorKitchen look for two files (`Custom template`.html and `Custom template`.fs). Just input the name of the files without extension.
+
+
 **[⬆ back to top](#table-of-contents)**
 
 # }
