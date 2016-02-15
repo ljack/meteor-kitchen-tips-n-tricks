@@ -12,7 +12,7 @@ Please fork this and create pull request to have your hacks-n-tips included. Or 
 
 ## Table of Contents
 1. [Display helpers](#helpers)
-1. [Template](#template)
+1. [custom_component](#custom_component)
 1. [Template](#template)
 
 
@@ -26,8 +26,8 @@ Template.registerHelper("displayPhoto",  function (url) {
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## Template
- - [x.x](#x.x) <a name='x.'x></a> ** Add stuff here ** : That helps make meteorkitchen more fun ;) 
+## custom_component
+ - [1.2](#1.2) <a name='1.'2></a> ** Custom component ** : One of the most powerfull features in MeteorKitchen. 
  
 **[⬆ back to top](#table-of-contents)**
 
